@@ -1,0 +1,626 @@
+2024-07-31 16:43:40.922311029	[31mfatal[0m	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/cmd/server/main.go:48	error in resgister modules	{"error": "missing dependencies for function \"github.com/Lucas-Linhar3s/Base-Structure-Golang/pkg/dig\".ResgisterModules.func1 (/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/pkg/dig/config_dig.go:20): missing type: []server.Module", "errorVerbose": "missing dependencies for function \"github.com/Lucas-Linhar3s/Base-Structure-Golang/pkg/dig\".ResgisterModules.func1\n\t/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/pkg/dig/config_dig.go:20:\nmissing type:\n\t- []server.Module (did you mean to Provide it?)"}
+main.main.func2
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/cmd/server/main.go:48
+reflect.Value.call
+	/usr/local/go/src/reflect/value.go:596
+reflect.Value.Call
+	/usr/local/go/src/reflect/value.go:380
+go.uber.org/dig.defaultInvoker
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/container.go:238
+go.uber.org/dig.(*Scope).Invoke
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/invoke.go:160
+go.uber.org/dig.(*Container).Invoke
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/invoke.go:82
+main.main
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/cmd/server/main.go:46
+runtime.main
+	/usr/local/go/src/runtime/proc.go:271
+2024-07-31 16:44:14.020291310	[31mfatal[0m	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/cmd/server/main.go:48	error in resgister modules	{"error": "missing dependencies for function \"github.com/Lucas-Linhar3s/Base-Structure-Golang/pkg/dig\".ResgisterModules.func1 (/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/pkg/dig/config_dig.go:20): missing type: server.Module (did you mean *server.Module?)", "errorVerbose": "missing dependencies for function \"github.com/Lucas-Linhar3s/Base-Structure-Golang/pkg/dig\".ResgisterModules.func1\n\t/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/pkg/dig/config_dig.go:20:\nmissing type:\n\t- server.Module (did you mean to use *server.Module?)"}
+main.main.func2
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/cmd/server/main.go:48
+reflect.Value.call
+	/usr/local/go/src/reflect/value.go:596
+reflect.Value.Call
+	/usr/local/go/src/reflect/value.go:380
+go.uber.org/dig.defaultInvoker
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/container.go:238
+go.uber.org/dig.(*Scope).Invoke
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/invoke.go:160
+go.uber.org/dig.(*Container).Invoke
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/invoke.go:82
+main.main
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/cmd/server/main.go:46
+runtime.main
+	/usr/local/go/src/runtime/proc.go:271
+2024-08-01 09:23:25.639750042	[31mfatal[0m	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/cmd/server/main.go:48	error in resgister modules	{"error": "missing dependencies for function \"github.com/Lucas-Linhar3s/Base-Structure-Golang/pkg/dig\".ResgisterModules.func1 (/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/pkg/dig/config_dig.go:20): missing type: []server.Module (did you mean *[]server.Module?)", "errorVerbose": "missing dependencies for function \"github.com/Lucas-Linhar3s/Base-Structure-Golang/pkg/dig\".ResgisterModules.func1\n\t/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/pkg/dig/config_dig.go:20:\nmissing type:\n\t- []server.Module (did you mean to use *[]server.Module?)"}
+main.main.func2
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/cmd/server/main.go:48
+reflect.Value.call
+	/usr/local/go/src/reflect/value.go:596
+reflect.Value.Call
+	/usr/local/go/src/reflect/value.go:380
+go.uber.org/dig.defaultInvoker
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/container.go:238
+go.uber.org/dig.(*Scope).Invoke
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/invoke.go:160
+go.uber.org/dig.(*Container).Invoke
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/invoke.go:82
+main.main
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/cmd/server/main.go:46
+runtime.main
+	/usr/local/go/src/runtime/proc.go:271
+2024-08-01 09:23:47.836206748	[31mfatal[0m	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/cmd/server/main.go:48	error in resgister modules	{"error": "missing dependencies for function \"github.com/Lucas-Linhar3s/Base-Structure-Golang/pkg/dig\".ResgisterModules.func1 (/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/pkg/dig/config_dig.go:20): missing type: []server.Module (did you mean *[]server.Module?)", "errorVerbose": "missing dependencies for function \"github.com/Lucas-Linhar3s/Base-Structure-Golang/pkg/dig\".ResgisterModules.func1\n\t/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/pkg/dig/config_dig.go:20:\nmissing type:\n\t- []server.Module (did you mean to use *[]server.Module?)"}
+main.main.func2
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/cmd/server/main.go:48
+reflect.Value.call
+	/usr/local/go/src/reflect/value.go:596
+reflect.Value.Call
+	/usr/local/go/src/reflect/value.go:380
+go.uber.org/dig.defaultInvoker
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/container.go:238
+go.uber.org/dig.(*Scope).Invoke
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/invoke.go:160
+go.uber.org/dig.(*Container).Invoke
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/invoke.go:82
+main.main
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/cmd/server/main.go:46
+runtime.main
+	/usr/local/go/src/runtime/proc.go:271
+2024-08-01 09:56:57.403817587	[34minfo[0m	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/middleware/log.go:34	Request	{"trace": "b8ae31be8f5c98980a5d2124d6f67c4c", "request_method": "GET", "request_headers": {"Accept":["image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"],"Accept-Encoding":["gzip, deflate, br, zstd"],"Accept-Language":["pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7"],"Connection":["keep-alive"],"Referer":["http://localhost:8000/example/find"],"Sec-Ch-Ua":["\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\""],"Sec-Ch-Ua-Mobile":["?0"],"Sec-Ch-Ua-Platform":["\"Linux\""],"Sec-Fetch-Dest":["image"],"Sec-Fetch-Mode":["no-cors"],"Sec-Fetch-Site":["same-origin"],"User-Agent":["Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"]}, "request_url": "/favicon.ico", "request_params": ""}
+2024-08-01 10:52:31.998546529	[31merror[0m	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/modules/example/application/business.go:37	failed to find example	{"error": "copier field name tag must be start upper case"}
+github.com/Lucas-Linhar3s/Base-Structure-Golang/modules/example/application.(*ExampleApp).Find
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/modules/example/application/business.go:37
+github.com/Lucas-Linhar3s/Base-Structure-Golang/modules/example/interfaces.(*ExampleHandler).Find
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/modules/example/interfaces/handler.go:29
+github.com/gin-gonic/gin.(*Context).Next
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:2039
+2024-08-01 10:53:44.726336006	[31merror[0m	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/modules/example/application/business.go:37	failed to find example	{"error": "copier field name tag must be start upper case"}
+github.com/Lucas-Linhar3s/Base-Structure-Golang/modules/example/application.(*ExampleApp).Find
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/modules/example/application/business.go:37
+github.com/Lucas-Linhar3s/Base-Structure-Golang/modules/example/interfaces.(*ExampleHandler).Find
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/modules/example/interfaces/handler.go:29
+github.com/gin-gonic/gin.(*Context).Next
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:2039
+2024-08-01 10:55:22.533040438	[31merror[0m	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/modules/example/application/business.go:43	failed to find example	{"error": "Id is required"}
+github.com/Lucas-Linhar3s/Base-Structure-Golang/modules/example/application.(*ExampleApp).Find
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/modules/example/application/business.go:43
+github.com/Lucas-Linhar3s/Base-Structure-Golang/modules/example/interfaces.(*ExampleHandler).Find
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/modules/example/interfaces/handler.go:29
+github.com/gin-gonic/gin.(*Context).Next
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:2039
+2024-08-01 10:55:41.491388752	[31merror[0m	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/modules/example/application/business.go:43	failed to find example	{"error": "Id is required"}
+github.com/Lucas-Linhar3s/Base-Structure-Golang/modules/example/application.(*ExampleApp).Find
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/modules/example/application/business.go:43
+github.com/Lucas-Linhar3s/Base-Structure-Golang/modules/example/interfaces.(*ExampleHandler).Find
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/modules/example/interfaces/handler.go:29
+github.com/gin-gonic/gin.(*Context).Next
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:2039
+2024-08-01 10:57:15.965857498	[31merror[0m	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/modules/example/application/business.go:43	failed to find example	{"error": "Id is required"}
+github.com/Lucas-Linhar3s/Base-Structure-Golang/modules/example/application.(*ExampleApp).Find
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/modules/example/application/business.go:43
+github.com/Lucas-Linhar3s/Base-Structure-Golang/modules/example/interfaces.(*ExampleHandler).Find
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/modules/example/interfaces/handler.go:29
+github.com/gin-gonic/gin.(*Context).Next
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:2039
+2024-08-01 11:01:17.748695255	[34minfo[0m	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/middleware/log.go:34	Request	{"trace": "b1051d3107d6da9327b619aea66426cd", "request_method": "GET", "request_headers": {"Accept":["text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"],"Accept-Encoding":["gzip, deflate, br, zstd"],"Accept-Language":["pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7"],"Connection":["keep-alive"],"Purpose":["prefetch"],"Sec-Ch-Ua":["\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\""],"Sec-Ch-Ua-Mobile":["?0"],"Sec-Ch-Ua-Platform":["\"Linux\""],"Sec-Fetch-Dest":["document"],"Sec-Fetch-Mode":["navigate"],"Sec-Fetch-Site":["none"],"Sec-Fetch-User":["?1"],"Sec-Purpose":["prefetch;prerender"],"Upgrade-Insecure-Requests":["1"],"User-Agent":["Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"]}, "request_url": "/example/find", "request_params": ""}
+2024-08-01 11:01:17.748867571	[31merror[0m	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/modules/example/application/business.go:43	failed to find example	{"error": "Id is required"}
+github.com/Lucas-Linhar3s/Base-Structure-Golang/modules/example/application.(*ExampleApp).Find
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/modules/example/application/business.go:43
+github.com/Lucas-Linhar3s/Base-Structure-Golang/modules/example/interfaces.(*ExampleHandler).Find
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/modules/example/interfaces/handler.go:29
+github.com/gin-gonic/gin.(*Context).Next
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/Lucas-Linhar3s/Base-Structure-Golang/middleware.RequestLogMiddleware.func1
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/middleware/log.go:35
+github.com/gin-gonic/gin.(*Context).Next
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/Lucas-Linhar3s/Base-Structure-Golang/middleware.CORSMiddleware.func1
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/middleware/cors.go:23
+github.com/gin-gonic/gin.(*Context).Next
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:2039
+2024-08-01 11:01:19.132696580	[34minfo[0m	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/middleware/log.go:34	Request	{"trace": "592b11ebcf1ca1d7246ef73547bb6334", "request_method": "GET", "request_headers": {"Accept":["text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"],"Accept-Encoding":["gzip, deflate, br, zstd"],"Accept-Language":["pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7"],"Connection":["keep-alive"],"Sec-Ch-Ua":["\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\""],"Sec-Ch-Ua-Mobile":["?0"],"Sec-Ch-Ua-Platform":["\"Linux\""],"Sec-Fetch-Dest":["document"],"Sec-Fetch-Mode":["navigate"],"Sec-Fetch-Site":["none"],"Sec-Fetch-User":["?1"],"Upgrade-Insecure-Requests":["1"],"User-Agent":["Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"]}, "request_url": "/example/find", "request_params": ""}
+2024-08-01 11:01:19.132846200	[31merror[0m	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/modules/example/application/business.go:43	failed to find example	{"error": "Id is required"}
+github.com/Lucas-Linhar3s/Base-Structure-Golang/modules/example/application.(*ExampleApp).Find
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/modules/example/application/business.go:43
+github.com/Lucas-Linhar3s/Base-Structure-Golang/modules/example/interfaces.(*ExampleHandler).Find
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/modules/example/interfaces/handler.go:29
+github.com/gin-gonic/gin.(*Context).Next
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/Lucas-Linhar3s/Base-Structure-Golang/middleware.RequestLogMiddleware.func1
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/middleware/log.go:35
+github.com/gin-gonic/gin.(*Context).Next
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/Lucas-Linhar3s/Base-Structure-Golang/middleware.CORSMiddleware.func1
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/middleware/cors.go:23
+github.com/gin-gonic/gin.(*Context).Next
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:2039
+2024-08-01 11:03:06.669249216	[34minfo[0m	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/middleware/log.go:34	Request	{"trace": "1eefe984d2c542bfcefd77aaa4413cad", "request_method": "GET", "request_headers": {"Accept":["text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"],"Accept-Encoding":["gzip, deflate, br, zstd"],"Accept-Language":["pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7"],"Cache-Control":["max-age=0"],"Connection":["keep-alive"],"Sec-Ch-Ua":["\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\""],"Sec-Ch-Ua-Mobile":["?0"],"Sec-Ch-Ua-Platform":["\"Linux\""],"Sec-Fetch-Dest":["document"],"Sec-Fetch-Mode":["navigate"],"Sec-Fetch-Site":["none"],"Sec-Fetch-User":["?1"],"Upgrade-Insecure-Requests":["1"],"User-Agent":["Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"]}, "request_url": "/example/find", "request_params": ""}
+2024-08-01 11:03:06.669582973	[31merror[0m	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/modules/example/application/business.go:43	failed to find example	{"error: ": "Id is required"}
+github.com/Lucas-Linhar3s/Base-Structure-Golang/modules/example/application.(*ExampleApp).Find
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/modules/example/application/business.go:43
+github.com/Lucas-Linhar3s/Base-Structure-Golang/modules/example/interfaces.(*ExampleHandler).Find
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/modules/example/interfaces/handler.go:29
+github.com/gin-gonic/gin.(*Context).Next
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/Lucas-Linhar3s/Base-Structure-Golang/middleware.RequestLogMiddleware.func1
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/middleware/log.go:35
+github.com/gin-gonic/gin.(*Context).Next
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/Lucas-Linhar3s/Base-Structure-Golang/middleware.CORSMiddleware.func1
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/middleware/cors.go:23
+github.com/gin-gonic/gin.(*Context).Next
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:2039
+2024-08-01 11:07:53.725803075	[34minfo[0m	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/middleware/log.go:34	Request	{"trace": "699988a2c89dfbea1cb5989776477804", "request_method": "GET", "request_headers": {"Accept":["text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"],"Accept-Encoding":["gzip, deflate, br, zstd"],"Accept-Language":["pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7"],"Cache-Control":["max-age=0"],"Connection":["keep-alive"],"Sec-Ch-Ua":["\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\""],"Sec-Ch-Ua-Mobile":["?0"],"Sec-Ch-Ua-Platform":["\"Linux\""],"Sec-Fetch-Dest":["document"],"Sec-Fetch-Mode":["navigate"],"Sec-Fetch-Site":["none"],"Sec-Fetch-User":["?1"],"Upgrade-Insecure-Requests":["1"],"User-Agent":["Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"]}, "request_url": "/example/find", "request_params": ""}
+2024-08-01 11:07:53.726039836	[31merror[0m	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/modules/example/application/business.go:43	failed to find example	{"error": "Id is required"}
+github.com/Lucas-Linhar3s/Base-Structure-Golang/modules/example/application.(*ExampleApp).Find
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/modules/example/application/business.go:43
+github.com/Lucas-Linhar3s/Base-Structure-Golang/modules/example/interfaces.(*ExampleHandler).Find
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/modules/example/interfaces/handler.go:29
+github.com/gin-gonic/gin.(*Context).Next
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/Lucas-Linhar3s/Base-Structure-Golang/middleware.RequestLogMiddleware.func1
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/middleware/log.go:35
+github.com/gin-gonic/gin.(*Context).Next
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/Lucas-Linhar3s/Base-Structure-Golang/middleware.CORSMiddleware.func1
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/middleware/cors.go:23
+github.com/gin-gonic/gin.(*Context).Next
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:2039
+2024-08-01 11:20:54.513270233	[34minfo[0m	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/middleware/log.go:34	Request	{"trace": "ecf7b127950b02a1b5263492386b7b6a", "request_method": "GET", "request_headers": {"Accept":["text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"],"Accept-Encoding":["gzip, deflate, br, zstd"],"Accept-Language":["pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7"],"Cache-Control":["max-age=0"],"Connection":["keep-alive"],"Sec-Ch-Ua":["\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\""],"Sec-Ch-Ua-Mobile":["?0"],"Sec-Ch-Ua-Platform":["\"Linux\""],"Sec-Fetch-Dest":["document"],"Sec-Fetch-Mode":["navigate"],"Sec-Fetch-Site":["none"],"Sec-Fetch-User":["?1"],"Upgrade-Insecure-Requests":["1"],"User-Agent":["Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"]}, "request_url": "/example/find", "request_params": ""}
+2024-08-01 11:20:54.513584866	[31merror[0m	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/modules/example/application/business.go:43	failed to find example	{"error": "Id is required"}
+github.com/Lucas-Linhar3s/Base-Structure-Golang/modules/example/application.(*ExampleApp).Find
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/modules/example/application/business.go:43
+github.com/Lucas-Linhar3s/Base-Structure-Golang/modules/example/interfaces.(*ExampleHandler).Find
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/modules/example/interfaces/handler.go:29
+github.com/gin-gonic/gin.(*Context).Next
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/Lucas-Linhar3s/Base-Structure-Golang/middleware.RequestLogMiddleware.func1
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/middleware/log.go:35
+github.com/gin-gonic/gin.(*Context).Next
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/Lucas-Linhar3s/Base-Structure-Golang/middleware.CORSMiddleware.func1
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/middleware/cors.go:23
+github.com/gin-gonic/gin.(*Context).Next
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:2039
+2024-08-01 11:21:54.032283383	[34minfo[0m	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/middleware/log.go:34	Request	{"trace": "2284df1c31f62d26db3ef2ddb235cab6", "request_method": "GET", "request_headers": {"Accept":["text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"],"Accept-Encoding":["gzip, deflate, br, zstd"],"Accept-Language":["pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7"],"Cache-Control":["max-age=0"],"Connection":["keep-alive"],"Sec-Ch-Ua":["\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\""],"Sec-Ch-Ua-Mobile":["?0"],"Sec-Ch-Ua-Platform":["\"Linux\""],"Sec-Fetch-Dest":["document"],"Sec-Fetch-Mode":["navigate"],"Sec-Fetch-Site":["none"],"Sec-Fetch-User":["?1"],"Upgrade-Insecure-Requests":["1"],"User-Agent":["Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"]}, "request_url": "/example/find", "request_params": ""}
+2024-08-01 11:22:18.499624318	[34minfo[0m	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/middleware/log.go:34	Request	{"trace": "a1140043ed77b4ce513b3b5d0368fe1f", "request_method": "GET", "request_headers": {"Accept":["text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"],"Accept-Encoding":["gzip, deflate, br, zstd"],"Accept-Language":["pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7"],"Cache-Control":["max-age=0"],"Connection":["keep-alive"],"Sec-Ch-Ua":["\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\""],"Sec-Ch-Ua-Mobile":["?0"],"Sec-Ch-Ua-Platform":["\"Linux\""],"Sec-Fetch-Dest":["document"],"Sec-Fetch-Mode":["navigate"],"Sec-Fetch-Site":["none"],"Sec-Fetch-User":["?1"],"Upgrade-Insecure-Requests":["1"],"User-Agent":["Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"]}, "request_url": "/example/find", "request_params": ""}
+2024-08-01 11:22:18.499980028	[31merror[0m	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/modules/example/application/business.go:43	failed to find example	{"error": "name is required"}
+github.com/Lucas-Linhar3s/Base-Structure-Golang/modules/example/application.(*ExampleApp).Find
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/modules/example/application/business.go:43
+github.com/Lucas-Linhar3s/Base-Structure-Golang/modules/example/interfaces.(*ExampleHandler).Find
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/modules/example/interfaces/handler.go:29
+github.com/gin-gonic/gin.(*Context).Next
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/Lucas-Linhar3s/Base-Structure-Golang/middleware.RequestLogMiddleware.func1
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/middleware/log.go:35
+github.com/gin-gonic/gin.(*Context).Next
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/Lucas-Linhar3s/Base-Structure-Golang/middleware.CORSMiddleware.func1
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/middleware/cors.go:23
+github.com/gin-gonic/gin.(*Context).Next
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:2039
+2024-08-01 11:22:26.342519984	[34minfo[0m	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/middleware/log.go:34	Request	{"trace": "d63a2b91d0f706ea56cfaef6e3d8212f", "request_method": "GET", "request_headers": {"Accept":["text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"],"Accept-Encoding":["gzip, deflate, br, zstd"],"Accept-Language":["pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7"],"Connection":["keep-alive"],"Sec-Ch-Ua":["\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\""],"Sec-Ch-Ua-Mobile":["?0"],"Sec-Ch-Ua-Platform":["\"Linux\""],"Sec-Fetch-Dest":["document"],"Sec-Fetch-Mode":["navigate"],"Sec-Fetch-Site":["none"],"Sec-Fetch-User":["?1"],"Upgrade-Insecure-Requests":["1"],"User-Agent":["Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"]}, "request_url": "/example/find?nqme=Lucas", "request_params": ""}
+2024-08-01 11:22:26.342656489	[31merror[0m	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/modules/example/application/business.go:43	failed to find example	{"error": "name is required"}
+github.com/Lucas-Linhar3s/Base-Structure-Golang/modules/example/application.(*ExampleApp).Find
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/modules/example/application/business.go:43
+github.com/Lucas-Linhar3s/Base-Structure-Golang/modules/example/interfaces.(*ExampleHandler).Find
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/modules/example/interfaces/handler.go:29
+github.com/gin-gonic/gin.(*Context).Next
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/Lucas-Linhar3s/Base-Structure-Golang/middleware.RequestLogMiddleware.func1
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/middleware/log.go:35
+github.com/gin-gonic/gin.(*Context).Next
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/Lucas-Linhar3s/Base-Structure-Golang/middleware.CORSMiddleware.func1
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/middleware/cors.go:23
+github.com/gin-gonic/gin.(*Context).Next
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:2039
+2024-08-01 11:22:34.593761342	[34minfo[0m	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/middleware/log.go:34	Request	{"trace": "b71a3495240ac0eadeec958aff33a505", "request_method": "GET", "request_headers": {"Accept":["text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"],"Accept-Encoding":["gzip, deflate, br, zstd"],"Accept-Language":["pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7"],"Connection":["keep-alive"],"Sec-Ch-Ua":["\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\""],"Sec-Ch-Ua-Mobile":["?0"],"Sec-Ch-Ua-Platform":["\"Linux\""],"Sec-Fetch-Dest":["document"],"Sec-Fetch-Mode":["navigate"],"Sec-Fetch-Site":["none"],"Sec-Fetch-User":["?1"],"Upgrade-Insecure-Requests":["1"],"User-Agent":["Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"]}, "request_url": "/example/find?name=lucas", "request_params": ""}
+2024-08-01 11:23:48.903799466	[34minfo[0m	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/middleware/log.go:34	Request	{"trace": "fbf709e7bfb3deb5535ade8ba1c286c6", "request_method": "GET", "request_headers": {"Accept":["text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"],"Accept-Encoding":["gzip, deflate, br, zstd"],"Accept-Language":["pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7"],"Cache-Control":["max-age=0"],"Connection":["keep-alive"],"Sec-Ch-Ua":["\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\""],"Sec-Ch-Ua-Mobile":["?0"],"Sec-Ch-Ua-Platform":["\"Linux\""],"Sec-Fetch-Dest":["document"],"Sec-Fetch-Mode":["navigate"],"Sec-Fetch-Site":["none"],"Sec-Fetch-User":["?1"],"Upgrade-Insecure-Requests":["1"],"User-Agent":["Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"]}, "request_url": "/example/find?name=lucas", "request_params": ""}
+2024-08-01 11:39:17.729643236	[31mpanic[0m	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/di/config_di.go:90	failed to open database	{"error": "banco de dados sqlite não encontrado"}
+github.com/Lucas-Linhar3s/Base-Structure-Golang/di.registerDatabase.func1
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/di/config_di.go:90
+reflect.Value.call
+	/usr/local/go/src/reflect/value.go:596
+reflect.Value.Call
+	/usr/local/go/src/reflect/value.go:380
+go.uber.org/dig.defaultInvoker
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/container.go:238
+go.uber.org/dig.(*constructorNode).Call
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/constructor.go:185
+go.uber.org/dig.paramSingle.Build
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/param.go:287
+go.uber.org/dig.paramList.BuildList
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/param.go:150
+go.uber.org/dig.(*constructorNode).Call
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/constructor.go:155
+go.uber.org/dig.paramSingle.Build
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/param.go:287
+go.uber.org/dig.paramList.BuildList
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/param.go:150
+go.uber.org/dig.(*constructorNode).Call
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/constructor.go:155
+go.uber.org/dig.paramSingle.Build
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/param.go:287
+go.uber.org/dig.paramList.BuildList
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/param.go:150
+go.uber.org/dig.(*Scope).Invoke
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/invoke.go:122
+go.uber.org/dig.(*Container).Invoke
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/invoke.go:82
+github.com/Lucas-Linhar3s/Base-Structure-Golang/modules/example.routes
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/modules/example/example_module.go:62
+github.com/Lucas-Linhar3s/Base-Structure-Golang/modules/example.Binds
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/modules/example/example_module.go:57
+github.com/Lucas-Linhar3s/Base-Structure-Golang/di.modules.func1
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/di/config_di.go:22
+reflect.Value.call
+	/usr/local/go/src/reflect/value.go:596
+reflect.Value.Call
+	/usr/local/go/src/reflect/value.go:380
+go.uber.org/dig.defaultInvoker
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/container.go:238
+go.uber.org/dig.(*constructorNode).Call
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/constructor.go:185
+go.uber.org/dig.paramSingle.Build
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/param.go:287
+go.uber.org/dig.paramList.BuildList
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/param.go:150
+go.uber.org/dig.(*Scope).Invoke
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/invoke.go:122
+go.uber.org/dig.(*Container).Invoke
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/invoke.go:82
+github.com/Lucas-Linhar3s/Base-Structure-Golang/pkg/dig.ResgisterModules
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/pkg/dig/config_dig.go:21
+main.main.func2
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/cmd/server/main.go:47
+reflect.Value.call
+	/usr/local/go/src/reflect/value.go:596
+reflect.Value.Call
+	/usr/local/go/src/reflect/value.go:380
+go.uber.org/dig.defaultInvoker
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/container.go:238
+go.uber.org/dig.(*Scope).Invoke
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/invoke.go:160
+go.uber.org/dig.(*Container).Invoke
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/invoke.go:82
+main.main
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/cmd/server/main.go:46
+runtime.main
+	/usr/local/go/src/runtime/proc.go:271
+2024-08-01 11:41:54.875858418	[34minfo[0m	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/middleware/log.go:34	Request	{"trace": "11184e146b44d6816b2c4434a027197d", "request_method": "GET", "request_headers": {"Accept":["text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"],"Accept-Encoding":["gzip, deflate, br, zstd"],"Accept-Language":["pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7"],"Cache-Control":["max-age=0"],"Connection":["keep-alive"],"Sec-Ch-Ua":["\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\""],"Sec-Ch-Ua-Mobile":["?0"],"Sec-Ch-Ua-Platform":["\"Linux\""],"Sec-Fetch-Dest":["document"],"Sec-Fetch-Mode":["navigate"],"Sec-Fetch-Site":["none"],"Sec-Fetch-User":["?1"],"Upgrade-Insecure-Requests":["1"],"User-Agent":["Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"]}, "request_url": "/example/find?name=lucas", "request_params": ""}
+2024-08-01 14:20:08.308691498	[31merror[0m	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/modules/example/example_module.go:45	cannot provide function "github.com/Lucas-Linhar3s/Base-Structure-Golang/modules/example".Binds.func4 (/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/modules/example/example_module.go:42): bad result 1: cannot provide parameter objects: *application.ExampleApp embeds a dig.In
+github.com/Lucas-Linhar3s/Base-Structure-Golang/modules/example.Binds
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/modules/example/example_module.go:45
+github.com/Lucas-Linhar3s/Base-Structure-Golang/di.modules.func1
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/di/config_di.go:22
+reflect.Value.call
+	/usr/local/go/src/reflect/value.go:596
+reflect.Value.Call
+	/usr/local/go/src/reflect/value.go:380
+go.uber.org/dig.defaultInvoker
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/container.go:238
+go.uber.org/dig.(*constructorNode).Call
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/constructor.go:185
+go.uber.org/dig.paramSingle.Build
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/param.go:287
+go.uber.org/dig.paramList.BuildList
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/param.go:150
+go.uber.org/dig.(*Scope).Invoke
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/invoke.go:122
+go.uber.org/dig.(*Container).Invoke
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/invoke.go:82
+github.com/Lucas-Linhar3s/Base-Structure-Golang/pkg/dig.ResgisterModules
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/pkg/dig/config_dig.go:21
+main.main.func2
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/cmd/server/main.go:47
+reflect.Value.call
+	/usr/local/go/src/reflect/value.go:596
+reflect.Value.Call
+	/usr/local/go/src/reflect/value.go:380
+go.uber.org/dig.defaultInvoker
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/container.go:238
+go.uber.org/dig.(*Scope).Invoke
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/invoke.go:160
+go.uber.org/dig.(*Container).Invoke
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/invoke.go:82
+main.main
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/cmd/server/main.go:46
+runtime.main
+	/usr/local/go/src/runtime/proc.go:271
+2024-08-01 14:21:32.383377319	[31merror[0m	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/modules/example/example_module.go:45	cannot provide function "github.com/Lucas-Linhar3s/Base-Structure-Golang/modules/example".Binds.func4 (/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/modules/example/example_module.go:42): bad result 1: cannot provide parameter objects: *application.ExampleApp embeds a dig.In
+github.com/Lucas-Linhar3s/Base-Structure-Golang/modules/example.Binds
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/modules/example/example_module.go:45
+github.com/Lucas-Linhar3s/Base-Structure-Golang/di.modules.func1
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/di/config_di.go:22
+reflect.Value.call
+	/usr/local/go/src/reflect/value.go:596
+reflect.Value.Call
+	/usr/local/go/src/reflect/value.go:380
+go.uber.org/dig.defaultInvoker
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/container.go:238
+go.uber.org/dig.(*constructorNode).Call
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/constructor.go:185
+go.uber.org/dig.paramSingle.Build
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/param.go:287
+go.uber.org/dig.paramList.BuildList
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/param.go:150
+go.uber.org/dig.(*Scope).Invoke
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/invoke.go:122
+go.uber.org/dig.(*Container).Invoke
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/invoke.go:82
+github.com/Lucas-Linhar3s/Base-Structure-Golang/pkg/dig.ResgisterModules
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/pkg/dig/config_dig.go:21
+main.main.func2
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/cmd/server/main.go:47
+reflect.Value.call
+	/usr/local/go/src/reflect/value.go:596
+reflect.Value.Call
+	/usr/local/go/src/reflect/value.go:380
+go.uber.org/dig.defaultInvoker
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/container.go:238
+go.uber.org/dig.(*Scope).Invoke
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/invoke.go:160
+go.uber.org/dig.(*Container).Invoke
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/invoke.go:82
+main.main
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/cmd/server/main.go:46
+runtime.main
+	/usr/local/go/src/runtime/proc.go:271
+2024-08-01 14:22:38.232632121	[34minfo[0m	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/middleware/log.go:34	Request	{"trace": "49f26b016afc7851653cbece5d9cc25f", "request_method": "GET", "request_headers": {"Accept":["text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"],"Accept-Encoding":["gzip, deflate, br, zstd"],"Accept-Language":["pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7"],"Connection":["keep-alive"],"Purpose":["prefetch"],"Sec-Ch-Ua":["\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\""],"Sec-Ch-Ua-Mobile":["?0"],"Sec-Ch-Ua-Platform":["\"Linux\""],"Sec-Fetch-Dest":["document"],"Sec-Fetch-Mode":["navigate"],"Sec-Fetch-Site":["none"],"Sec-Fetch-User":["?1"],"Sec-Purpose":["prefetch;prerender"],"Upgrade-Insecure-Requests":["1"],"User-Agent":["Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"]}, "request_url": "/example/find", "request_params": ""}
+2024-08-01 14:22:38.232809604	[31merror[0m	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/modules/example/application/business.go:43	failed to find example	{"error": "name is required"}
+github.com/Lucas-Linhar3s/Base-Structure-Golang/modules/example/application.(*ExampleApp).Find
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/modules/example/application/business.go:43
+github.com/Lucas-Linhar3s/Base-Structure-Golang/modules/example/interfaces.(*ExampleHandler).Find
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/modules/example/interfaces/handler.go:29
+github.com/gin-gonic/gin.(*Context).Next
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/Lucas-Linhar3s/Base-Structure-Golang/middleware.RequestLogMiddleware.func1
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/middleware/log.go:35
+github.com/gin-gonic/gin.(*Context).Next
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/Lucas-Linhar3s/Base-Structure-Golang/middleware.CORSMiddleware.func1
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/middleware/cors.go:23
+github.com/gin-gonic/gin.(*Context).Next
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:2039
+2024-08-01 14:22:39.515613591	[34minfo[0m	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/middleware/log.go:34	Request	{"trace": "e2dc354bf7ac66644f270f99fb7e4a4c", "request_method": "GET", "request_headers": {"Accept":["text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"],"Accept-Encoding":["gzip, deflate, br, zstd"],"Accept-Language":["pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7"],"Connection":["keep-alive"],"Sec-Ch-Ua":["\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\""],"Sec-Ch-Ua-Mobile":["?0"],"Sec-Ch-Ua-Platform":["\"Linux\""],"Sec-Fetch-Dest":["document"],"Sec-Fetch-Mode":["navigate"],"Sec-Fetch-Site":["none"],"Sec-Fetch-User":["?1"],"Upgrade-Insecure-Requests":["1"],"User-Agent":["Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"]}, "request_url": "/example/find", "request_params": ""}
+2024-08-01 14:22:39.515795495	[31merror[0m	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/modules/example/application/business.go:43	failed to find example	{"error": "name is required"}
+github.com/Lucas-Linhar3s/Base-Structure-Golang/modules/example/application.(*ExampleApp).Find
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/modules/example/application/business.go:43
+github.com/Lucas-Linhar3s/Base-Structure-Golang/modules/example/interfaces.(*ExampleHandler).Find
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/modules/example/interfaces/handler.go:29
+github.com/gin-gonic/gin.(*Context).Next
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/Lucas-Linhar3s/Base-Structure-Golang/middleware.RequestLogMiddleware.func1
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/middleware/log.go:35
+github.com/gin-gonic/gin.(*Context).Next
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/Lucas-Linhar3s/Base-Structure-Golang/middleware.CORSMiddleware.func1
+	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/middleware/cors.go:23
+github.com/gin-gonic/gin.(*Context).Next
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/lucas/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:2039
+2024-08-01 14:22:47.878982259	[34minfo[0m	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/middleware/log.go:34	Request	{"trace": "8b19d754dbb370f13bde64246e1b1830", "request_method": "GET", "request_headers": {"Accept":["text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"],"Accept-Encoding":["gzip, deflate, br, zstd"],"Accept-Language":["pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7"],"Connection":["keep-alive"],"Sec-Ch-Ua":["\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\""],"Sec-Ch-Ua-Mobile":["?0"],"Sec-Ch-Ua-Platform":["\"Linux\""],"Sec-Fetch-Dest":["document"],"Sec-Fetch-Mode":["navigate"],"Sec-Fetch-Site":["none"],"Sec-Fetch-User":["?1"],"Upgrade-Insecure-Requests":["1"],"User-Agent":["Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"]}, "request_url": "/example/find?name=lucas", "request_params": ""}
