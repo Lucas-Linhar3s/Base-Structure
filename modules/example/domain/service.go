@@ -4,10 +4,20 @@ import (
 	"errors"
 
 	"github.com/jinzhu/copier"
+	"go.uber.org/dig"
 
 	"github.com/Lucas-Linhar3s/Base-Structure-Golang/database"
 	"github.com/Lucas-Linhar3s/Base-Structure-Golang/modules/example/infrastructure"
 )
+
+type repositoryDependencies struct {
+	dig.In
+	Database *database.Database `name:"DATABASE"`
+}
+type servicesDependencies struct {
+	dig.In
+	Repo IExample `name:"EXAMPLE-REPOSITORY"`
+}
 
 // Service represents the example service
 type Service struct {
@@ -15,13 +25,13 @@ type Service struct {
 }
 
 // GetService returns the example service
-func GetService(repo IExample) *Service {
-	return &Service{repo: repo}
+func GetService(dep servicesDependencies) *Service {
+	return &Service{repo: dep.Repo}
 }
 
 // GetRepository returns the example repository
-func GetRepository(db *database.Database) IExample {
-	return newRepository(db)
+func GetRepository(dep repositoryDependencies) IExample {
+	return newRepository(dep.Database)
 }
 
 func (s *Service) Find(req ExampleModel) (string, error) {

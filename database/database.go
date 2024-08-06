@@ -3,7 +3,6 @@ package database
 import (
 	"database/sql"
 	"errors"
-	"log"
 	"os"
 	"path/filepath"
 	"time"
@@ -12,9 +11,18 @@ import (
 	"github.com/jackc/pgx"
 	"github.com/jackc/pgx/stdlib"
 	_ "github.com/mattn/go-sqlite3"
+	"go.uber.org/dig"
+	"go.uber.org/zap"
 
 	"github.com/Lucas-Linhar3s/Base-Structure-Golang/pkg/config"
+	"github.com/Lucas-Linhar3s/Base-Structure-Golang/pkg/log"
 )
+
+type datbaseDependencies struct {
+	dig.In
+	Config *config.Config `name:"CONFIG"`
+	Logger *log.Logger    `name:"LOGGER"`
+}
 
 type Database struct {
 	db                 *sql.DB
@@ -22,10 +30,19 @@ type Database struct {
 	Builder            sq.StatementBuilderType
 }
 
-func Open(c *config.Config, dir string, driver string) (database *Database, err error) {
+func NewDatabase(dep datbaseDependencies) *Database {
+	db, err := open(dep.Config)
+	if err != nil {
+		dep.Logger.Fatal("failed to open database", zap.Error(err))
+	}
+
+	return db
+}
+
+func open(c *config.Config) (database *Database, err error) {
 	var db *sql.DB
 
-	if driver == "mysql" || driver == "postgres" {
+	if c.Data.Db.User.Driver == "mysql" || c.Data.Db.User.Driver == "postgres" {
 		driverConfig := stdlib.DriverConfig{
 			ConnConfig: pgx.ConnConfig{
 				RuntimeParams: map[string]string{
@@ -55,12 +72,12 @@ func Open(c *config.Config, dir string, driver string) (database *Database, err 
 		if err != nil {
 			return nil, err
 		}
-	} else if driver == "sqlite" {
+	} else if c.Data.Db.User.Driver == "sqlite" {
 		currentDir, err := os.Getwd()
 		if err != nil {
-			log.Fatal(err)
+			return nil, err
 		}
-		path := filepath.Join(currentDir, dir, c.Data.Db.User.Dsn)
+		path := filepath.Join(currentDir, "", c.Data.Db.User.Dsn)
 
 		// Verifica se o arquivo do banco de dados existe
 		if _, err := os.Stat(path); os.IsNotExist(err) {

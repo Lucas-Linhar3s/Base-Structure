@@ -18,13 +18,13 @@ type Route struct {
 
 // Module represents a module of the application
 type Module struct {
-	Name   string
+	Group  string
 	Routes []Route
 }
 
 // Register register modules
 func (m *Module) Register(router *gin.Engine, logger *log.Logger) {
-	group := router.Group(("/" + m.Name))
+	group := router.Group(("/" + m.Group))
 	group.Use(
 		middleware.CORSMiddleware(),
 		middleware.RequestLogMiddleware(logger),

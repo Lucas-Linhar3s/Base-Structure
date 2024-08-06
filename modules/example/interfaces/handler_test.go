@@ -17,7 +17,7 @@ import (
 
 func TestFind(t *testing.T) {
 	container := dig.BuildContainer()
-	if err := di.ConfiDI(container); err != nil {
+	if err := di.RegisterDI(container); err != nil {
 		t.Fatal(err)
 	}
 

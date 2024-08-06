@@ -8,27 +8,36 @@ import (
 
 	"github.com/golang-jwt/jwt/v5"
 	"github.com/google/uuid"
+	"go.uber.org/dig"
 
 	"github.com/Lucas-Linhar3s/Base-Structure-Golang/pkg/config"
 )
+
+type jwtDependencies struct {
+	dig.In
+	Config *config.Config `name:"CONFIG"`
+}
 
 // JWT represents the jwt configuration of the application.
 type JWT struct {
 	key []byte
 }
+
 // MyCustomClaims represents the custom claims of the jwt.
 type MyCustomClaims struct {
 	UserId string
 	jwt.RegisteredClaims
 }
+
 // NewJwt returns a new JWT instance.
-func NewJwt(conf *config.Config) *JWT {
-	key, err := json.Marshal(conf.Security.Jwt.Key);
+func NewJwt(dep jwtDependencies) *JWT {
+	key, err := json.Marshal(dep.Config.Security.Jwt.Key)
 	if err != nil {
 		panic(err)
 	}
 	return &JWT{key: key}
 }
+
 // GenToken generates a jwt token.
 func (j *JWT) GenToken(userId string, expiresAt time.Time) (string, error) {
 	token := jwt.NewWithClaims(jwt.SigningMethodHS256, MyCustomClaims{
