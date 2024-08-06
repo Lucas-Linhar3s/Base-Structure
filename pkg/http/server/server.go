@@ -6,6 +6,7 @@ import (
 	ginSwagger "github.com/swaggo/gin-swagger"
 	"go.uber.org/dig"
 
+	"github.com/Lucas-Linhar3s/Base-Structure-Golang/docs"
 	"github.com/Lucas-Linhar3s/Base-Structure-Golang/pkg/config"
 	"github.com/Lucas-Linhar3s/Base-Structure-Golang/pkg/jwt"
 	"github.com/Lucas-Linhar3s/Base-Structure-Golang/pkg/log"
@@ -26,7 +27,7 @@ func NewServer(container *dig.Container) *Server {
 func (s *Server) Run(logger *log.Logger,
 	jwt *jwt.JWT, conf *config.Config) error {
 	// swagger doc
-	// docs.SwaggerInfo.BasePath = "/"
+	docs.SwaggerInfo.BasePath = "/"
 	// docs
 	swag := s.Router.Group("/swagger")
 	swag.GET("/*any", ginSwagger.WrapHandler(

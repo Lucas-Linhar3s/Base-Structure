@@ -81,6 +81,11 @@ Para iniciar o servidor, execute os seguintes comandos:
  ```bash Copiar código
   APP_CONF=backend/config/local.yml
  ```
+ 
+### Init Swag
+```bash Copiar código
+  swag init  -g cmd/server/main.go -o ./docs --parseDependency`
+``` 
 
 ```bash Copiar código
   go run ./cmd/server/main.go

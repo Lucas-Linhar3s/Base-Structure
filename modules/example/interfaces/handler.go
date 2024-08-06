@@ -22,7 +22,13 @@ func NewExampleHandler(app *application.ExampleApp) *ExampleHandler {
 	}
 }
 
-// Find implements IExample.
+// @Summary Find example
+// @Description Find example by name
+// @Tags example
+// @Produce json
+// @Param name query string true "Name"
+// @Success 200 {object} application.ExampleRes
+// @Router /example/find [get]
 func (h *ExampleHandler) Find(ctx *gin.Context) {
 	var req application.ExampleReq
 	req.Name = utils.GetStringPointer(ctx.Query("name"))
