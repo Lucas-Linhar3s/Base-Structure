@@ -4,11 +4,17 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
+	"go.uber.org/dig"
 
 	"github.com/Lucas-Linhar3s/Base-Structure-Golang/modules/example/application"
 	"github.com/Lucas-Linhar3s/Base-Structure-Golang/pkg/http/responses"
 	"github.com/Lucas-Linhar3s/Base-Structure-Golang/utils"
 )
+
+type exampleHandlerDependencies struct {
+	dig.In
+	ExampleApp *application.ExampleApp `name:"EXAMPLE-APP"`
+}
 
 // ExampleHandler represents the handler for the example module
 type ExampleHandler struct {
@@ -16,9 +22,9 @@ type ExampleHandler struct {
 }
 
 // NewExampleHandler returns a new ExampleHandler
-func NewExampleHandler(app *application.ExampleApp) *ExampleHandler {
+func NewExampleHandler(dep exampleHandlerDependencies) *ExampleHandler {
 	return &ExampleHandler{
-		app: app,
+		app: dep.ExampleApp,
 	}
 }
 

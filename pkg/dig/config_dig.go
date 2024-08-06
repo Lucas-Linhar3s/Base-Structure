@@ -26,12 +26,12 @@ func ResgisterModules(container *dig.Container, router *gin.Engine, logger *log.
 }
 
 // InvokeService invoca um serviço do tipo especificado no container e retorna a instância correspondente
-func InvokeService[T any](container *dig.Container, serviceType T) (*T, error) {
+func InvokeService[T any](container *dig.Container, serviceType *T) (*T, error) {
 	var result *T
 
 	// Utilize container.Invoke para obter o serviço do tipo especificado
 	err := container.Invoke(func(service T) {
-		*result = service
+		result = &service
 	})
 
 	if err != nil {

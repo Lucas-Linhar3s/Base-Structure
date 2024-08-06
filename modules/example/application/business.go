@@ -3,26 +3,30 @@ package application
 import (
 	"github.com/gin-gonic/gin"
 	"github.com/jinzhu/copier"
+	"go.uber.org/dig"
 	"go.uber.org/zap"
 
-	"github.com/Lucas-Linhar3s/Base-Structure-Golang/database"
 	"github.com/Lucas-Linhar3s/Base-Structure-Golang/modules/example/domain"
 	"github.com/Lucas-Linhar3s/Base-Structure-Golang/pkg/log"
 )
 
+type applicationDependencies struct {
+	dig.In
+	Service *domain.Service `name:"EXAMPLE-SERVICE"`
+	Logger  *log.Logger     `name:"LOGGER"`
+}
+
 // ExampleApp represents the example application
 type ExampleApp struct {
-	db      *database.Database
 	service *domain.Service
 	logger  *log.Logger
 }
 
 // ExampleReq represents the example request
-func NewExampleApp(db *database.Database, service *domain.Service, logger *log.Logger) *ExampleApp {
+func NewExampleApp(dep applicationDependencies) *ExampleApp {
 	return &ExampleApp{
-		db:      db,
-		service: service,
-		logger:  logger,
+		service: dep.Service,
+		logger:  dep.Logger,
 	}
 }
 

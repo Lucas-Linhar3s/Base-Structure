@@ -1,8 +1,7 @@
 package main
 
 import (
-	"fmt"
-
+	d "go.uber.org/dig"
 	"go.uber.org/zap"
 
 	"github.com/Lucas-Linhar3s/Base-Structure-Golang/di"
@@ -12,6 +11,14 @@ import (
 	"github.com/Lucas-Linhar3s/Base-Structure-Golang/pkg/jwt"
 	"github.com/Lucas-Linhar3s/Base-Structure-Golang/pkg/log"
 )
+
+type dependencies struct {
+	d.In
+	Log        *log.Logger    `name:"LOGGER"`
+	HTTPServer *server.Server `name:"SERVER"`
+	JWT        *jwt.JWT       `name:"JWT"`
+	Config     *config.Config `name:"CONFIG"`
+}
 
 // @title           Modularize example API
 // @version         1.0.0
@@ -30,28 +37,22 @@ import (
 // @externalDocs.url          https://swagger.io/resources/open-api/
 func main() {
 	var err error
-	var logg *log.Logger
+	var dep *dependencies
 	container := dig.BuildContainer()
 
-	if err = di.ConfiDI(container); err != nil {
-		logg.Fatal("error in modules", zap.Error(err))
+	if err = di.RegisterDI(container); err != nil {
+		panic(err)
 	}
 
-	if err = container.Invoke(func(logger *log.Logger) {
-		logg = logger
-	}); err != nil {
-		fmt.Println("error in logger", zap.Error(err))
+	if dep, err = dig.InvokeService(container, dep); err != nil {
+		panic(err)
 	}
 
-	if err = container.Invoke(func(httpServer *server.Server, logger *log.Logger, jwt *jwt.JWT, conf *config.Config) {
-		if err := dig.ResgisterModules(container, httpServer.Router, logger); err != nil {
-			logger.Fatal("error in resgister modules", zap.Error(err))
-		}
+	if err := dig.ResgisterModules(container, dep.HTTPServer.Router, dep.Log); err != nil {
+		dep.Log.Fatal("error in resgister modules", zap.Error(err))
+	}
 
-		if err = httpServer.Run(logger, jwt, conf); err != nil {
-			logger.Fatal("error in init server", zap.Error(err))
-		}
-	}); err != nil {
-		logg.Fatal("error in server", zap.Error(err))
+	if err = dep.HTTPServer.Run(dep.Log, dep.JWT, dep.Config); err != nil {
+		dep.Log.Fatal("error in init server", zap.Error(err))
 	}
 }

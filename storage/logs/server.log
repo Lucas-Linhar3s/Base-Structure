@@ -625,3 +625,97 @@ net/http.(*conn).serve
 	/usr/local/go/src/net/http/server.go:2039
 2024-08-01 14:22:47.878982259	[34minfo[0m	/home/lucas/src/github.com/Lucas-Linhar3s/base_structure/backend/middleware/log.go:34	Request	{"trace": "8b19d754dbb370f13bde64246e1b1830", "request_method": "GET", "request_headers": {"Accept":["text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"],"Accept-Encoding":["gzip, deflate, br, zstd"],"Accept-Language":["pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7"],"Connection":["keep-alive"],"Sec-Ch-Ua":["\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\""],"Sec-Ch-Ua-Mobile":["?0"],"Sec-Ch-Ua-Platform":["\"Linux\""],"Sec-Fetch-Dest":["document"],"Sec-Fetch-Mode":["navigate"],"Sec-Fetch-Site":["none"],"Sec-Fetch-User":["?1"],"Upgrade-Insecure-Requests":["1"],"User-Agent":["Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"]}, "request_url": "/example/find?name=lucas", "request_params": ""}
 2024-08-06 13:22:54.807324720	[34minfo[0m	/home/lucas/src/github.com/Lucas-Linhar3s/Base-Structure-Golang/middleware/log.go:34	Request	{"trace": "89fba6ebadb0ebdafb4edc01bdc6bcb4", "request_method": "GET", "request_headers": {"Accept":["application/json"],"Accept-Encoding":["gzip, deflate, br, zstd"],"Accept-Language":["pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7"],"Connection":["keep-alive"],"Referer":["http://localhost:8000/swagger/index.html"],"Sec-Ch-Ua":["\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\""],"Sec-Ch-Ua-Mobile":["?0"],"Sec-Ch-Ua-Platform":["\"Linux\""],"Sec-Fetch-Dest":["empty"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Site":["same-origin"],"User-Agent":["Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"]}, "request_url": "/example/find?name=hh", "request_params": ""}
+2024-08-06 15:43:04.621164315	[34minfo[0m	/home/lucas/src/github.com/Lucas-Linhar3s/Base-Structure-Golang/middleware/log.go:34	Request	{"trace": "8129adff4950541af06f91f6850bf561", "request_method": "GET", "request_headers": {"Accept":["application/json"],"Accept-Encoding":["gzip, deflate, br, zstd"],"Accept-Language":["pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7"],"Connection":["keep-alive"],"Referer":["http://localhost:8000/swagger/index.html"],"Sec-Ch-Ua":["\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\""],"Sec-Ch-Ua-Mobile":["?0"],"Sec-Ch-Ua-Platform":["\"Linux\""],"Sec-Fetch-Dest":["empty"],"Sec-Fetch-Mode":["cors"],"Sec-Fetch-Site":["same-origin"],"User-Agent":["Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"]}, "request_url": "/example/find?name=LULU", "request_params": ""}
+2024-08-06 15:44:22.611277533	[31mfatal[0m	/home/lucas/src/github.com/Lucas-Linhar3s/Base-Structure-Golang/database/database.go:36	failed to open database	{"error": "banco de dados sqlite não encontrado"}
+github.com/Lucas-Linhar3s/Base-Structure-Golang/database.NewDatabase
+	/home/lucas/src/github.com/Lucas-Linhar3s/Base-Structure-Golang/database/database.go:36
+reflect.Value.call
+	/usr/local/go/src/reflect/value.go:596
+reflect.Value.Call
+	/usr/local/go/src/reflect/value.go:380
+go.uber.org/dig.defaultInvoker
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/container.go:238
+go.uber.org/dig.(*constructorNode).Call
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/constructor.go:185
+go.uber.org/dig.paramSingle.Build
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/param.go:287
+go.uber.org/dig.paramObjectField.Build
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/param.go:484
+go.uber.org/dig.paramObject.Build
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/param.go:412
+go.uber.org/dig.paramList.BuildList
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/param.go:150
+go.uber.org/dig.(*constructorNode).Call
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/constructor.go:155
+go.uber.org/dig.paramSingle.Build
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/param.go:287
+go.uber.org/dig.paramObjectField.Build
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/param.go:484
+go.uber.org/dig.paramObject.Build
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/param.go:412
+go.uber.org/dig.paramList.BuildList
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/param.go:150
+go.uber.org/dig.(*constructorNode).Call
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/constructor.go:155
+go.uber.org/dig.paramSingle.Build
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/param.go:287
+go.uber.org/dig.paramObjectField.Build
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/param.go:484
+go.uber.org/dig.paramObject.Build
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/param.go:412
+go.uber.org/dig.paramList.BuildList
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/param.go:150
+go.uber.org/dig.(*constructorNode).Call
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/constructor.go:155
+go.uber.org/dig.paramSingle.Build
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/param.go:287
+go.uber.org/dig.paramObjectField.Build
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/param.go:484
+go.uber.org/dig.paramObject.Build
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/param.go:412
+go.uber.org/dig.paramList.BuildList
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/param.go:150
+go.uber.org/dig.(*constructorNode).Call
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/constructor.go:155
+go.uber.org/dig.paramSingle.Build
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/param.go:287
+go.uber.org/dig.paramObjectField.Build
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/param.go:484
+go.uber.org/dig.paramObject.Build
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/param.go:412
+go.uber.org/dig.paramList.BuildList
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/param.go:150
+go.uber.org/dig.(*Scope).Invoke
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/invoke.go:122
+go.uber.org/dig.(*Container).Invoke
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/invoke.go:82
+github.com/Lucas-Linhar3s/Base-Structure-Golang/modules/example/interfaces.ExampleRoutes
+	/home/lucas/src/github.com/Lucas-Linhar3s/Base-Structure-Golang/modules/example/interfaces/routes.go:20
+github.com/Lucas-Linhar3s/Base-Structure-Golang/modules/example.Module
+	/home/lucas/src/github.com/Lucas-Linhar3s/Base-Structure-Golang/modules/example/example_module.go:45
+github.com/Lucas-Linhar3s/Base-Structure-Golang/di.Modules
+	/home/lucas/src/github.com/Lucas-Linhar3s/Base-Structure-Golang/di/modules.go:12
+github.com/Lucas-Linhar3s/Base-Structure-Golang/di.RegisterDI.func1
+	/home/lucas/src/github.com/Lucas-Linhar3s/Base-Structure-Golang/di/config_di.go:17
+reflect.Value.call
+	/usr/local/go/src/reflect/value.go:596
+reflect.Value.Call
+	/usr/local/go/src/reflect/value.go:380
+go.uber.org/dig.defaultInvoker
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/container.go:238
+go.uber.org/dig.(*constructorNode).Call
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/constructor.go:185
+go.uber.org/dig.paramSingle.Build
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/param.go:287
+go.uber.org/dig.paramList.BuildList
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/param.go:150
+go.uber.org/dig.(*Scope).Invoke
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/invoke.go:122
+go.uber.org/dig.(*Container).Invoke
+	/home/lucas/go/pkg/mod/go.uber.org/dig@v1.17.1/invoke.go:82
+github.com/Lucas-Linhar3s/Base-Structure-Golang/pkg/dig.ResgisterModules
+	/home/lucas/src/github.com/Lucas-Linhar3s/Base-Structure-Golang/pkg/dig/config_dig.go:21
+main.main
+	/home/lucas/src/github.com/Lucas-Linhar3s/Base-Structure-Golang/cmd/server/main.go:51
+runtime.main
+	/usr/local/go/src/runtime/proc.go:271
